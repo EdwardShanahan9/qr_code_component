@@ -1,0 +1,28 @@
+/* Imports */
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+/* Variables */
+
+:root {
+  --color-slate-1: #1f314f;
+  --color-slate-2: #68778d;
+  --color-slate-3: #d5e1ef;
+  --font-family: "Outfit", serif;
+}
+
+/* Global */
+
+html {
+  font-size: 62.5%; /* 10px */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+}
